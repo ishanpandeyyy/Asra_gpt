@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Questionnaire",
+        "icon": "fluent-mdl2:survey-questions"
+        
+    },
+    {
+        "title": "Interactive",
+        "icon": "dashicons:media-interactive"
+    },
+    {
+        "title": "Books",
+        "icon": "mdi:books"
+    }
+]

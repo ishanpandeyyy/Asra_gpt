@@ -1,0 +1,129 @@
+
+  .qback {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fdebbe;
+  }
+
+  .typing-container {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .typing-text {
+    font-size: 24px;
+    color: #fff;
+    border-right: 2px solid #333;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    background-color: #4e4e85;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #333 }
+  }
+
+  .qbox {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .qbox h1 {
+    font-size: 1.5rem;
+    color: #4e4e85;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .options label:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .options input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .que-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4e4e85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .que-btn:hover {
+    background-color: #3a7bc8;
+  }
+
+  .slide-in {
+    animation: slideIn 0.3s forwards;
+  }
+  
+  .slide-out {
+    animation: slideOut 0.3s forwards;
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideOut {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(-100%); opacity: 0; }
+  }
+ 
+  footer {
+    margin-top: 130px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  @media (300px <= width <=500px){
+    .typing-text{
+      font-size: 14px;
+    }
+  }

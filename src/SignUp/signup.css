@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signin-bg {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdebbe;
+}
+
+.signin-container {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    background-color: #e9e2ca;
+}
+
+.signin-right {
+    flex: 2.5;
+    background-color: #e9e2ca;
+}
+
+.signin-left {
+    flex: 1.5;
+    background-color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .signin-container {
+        width: 90vw;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .signin-container {
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signin-left {
+        width: 80%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .signin-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .signin-container {
+        width: 90vw;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signin-left {
+        width: 70%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .signin-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .signin-container {
+        width: 95vw;
+    }
+
+    .signin-left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .signin-right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .signin-container {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .signin-left {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .signin-right {
+        width: 100%;
+    }
+}
