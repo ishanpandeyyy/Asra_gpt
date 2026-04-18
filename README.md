@@ -82,9 +82,8 @@ Open a pull request for review.
 Contact
 For feedback, suggestions, or collaboration inquiries:
 
-Email: sanchitbajaj2003@gmail.com
-LinkedIn: https://www.linkedin.com/in/sanchit-bajaj-977908283/
-Email: rgs786999@gmail.com
-LinkedIn: https://www.linkedin.com/in/rahul0410/
+Email: ishanpandey2803@gmail.com
+LinkedIn: https://www.linkedin.com/in/ishanpandeyy/
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
